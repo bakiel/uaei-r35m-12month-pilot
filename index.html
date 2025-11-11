@@ -2198,10 +2198,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.8.0/countUp.umd.min.js"></script>
 
     <!-- Modal data FIRST -->
-    <script src="data.js?v=20251111-1000"></script>
+    <script src="data.js?v=300"></script>
 
     <!-- LOAD NAVIGATION (now includes modal functions) -->
-    <script src="app.js?v=20251111-1000"></script>
+    <script src="app.js?v=300"></script>
 
     <!-- DRAMATIC ANIMATIONS SYSTEM -->
     <script>
@@ -2435,8 +2435,12 @@
             console.log('✅ MODAL SYSTEM READY - ' + Object.keys(window.modalContent).length + ' modals loaded');
             // Visual debug indicator
             const debugDot = document.createElement('div');
-            debugDot.style.cssText = 'position:fixed;bottom:10px;right:10px;width:12px;height:12px;background:#4CAF50;border-radius:50%;z-index:99999;box-shadow:0 0 10px rgba(76,175,80,0.8);';
-            debugDot.title = 'Modal system active (' + Object.keys(window.modalContent).length + ' modals)';
+            debugDot.style.cssText = 'position:fixed;bottom:10px;right:10px;width:12px;height:12px;background:#4CAF50;border-radius:50%;z-index:99999;box-shadow:0 0 10px rgba(76,175,80,0.8);cursor:pointer;';
+            debugDot.title = 'Click to test modal system (' + Object.keys(window.modalContent).length + ' modals loaded)';
+            debugDot.onclick = function() {
+                console.log('🧪 Testing modal system...');
+                showModal('voice-ai');
+            };
             document.body.appendChild(debugDot);
         } else {
             console.error('❌ MODAL CONTENT NOT LOADED!');
