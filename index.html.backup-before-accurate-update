@@ -51,7 +51,7 @@
                             <i class="fas fa-chart-line"></i>
                             <span>STRATEGIC VALUE</span>
                         </div>
-                        <div class="hero-amount" style="font-size: clamp(1.8rem, 3.5vw, 2.8rem);" data-animate-number="40" data-prefix="R" data-suffix="M" data-duration="3.5">R40-50M</div>
+                        <div class="hero-amount" style="font-size: clamp(1.8rem, 3.5vw, 2.8rem);" data-animate-number="45" data-prefix="R" data-suffix="M" data-duration="3.5">R40-50M</div>
                         <div class="hero-detail">IP Value | De-Risks R85M IDC Scale | 9-Province Ready</div>
                     </div>
 
@@ -85,7 +85,7 @@
                             <i class="fas fa-store-slash"></i>
                         </div>
                         <h3 style="font-size: clamp(1rem, 2vw, 1.3rem); color: #fff; margin-bottom: 1vh; font-weight: 700;">Market Fragmentation</h3>
-                        <p style="font-size: clamp(0.85rem, 1.6vw, 1rem); color: #ccc; line-height: 1.3; margin: 0;">85% lack access to formal markets (DAFF 2023) | 60% forced to use intermediaries: 40-60% value loss</p>
+                        <p style="font-size: clamp(0.85rem, 1.6vw, 1rem); color: #ccc; line-height: 1.3; margin: 0;">60% transact with intermediaries: 40-60% value loss</p>
                     </div>
 
                     <!-- Arrow -->
@@ -97,7 +97,7 @@
                             <i class="fas fa-ban"></i>
                         </div>
                         <h3 style="font-size: clamp(1rem, 2vw, 1.3rem); color: #fff; margin-bottom: 1vh; font-weight: 700;">Credit Exclusion</h3>
-                        <p style="font-size: clamp(0.85rem, 1.6vw, 1rem); color: #ccc; line-height: 1.3; margin: 0;">98% of loan applications rejected by banks (collateral-centric models)</p>
+                        <p style="font-size: clamp(0.85rem, 1.6vw, 1rem); color: #ccc; line-height: 1.3; margin: 0;">94% excluded from formal credit (collateral-centric models)</p>
                     </div>
 
                     <!-- Arrow -->
@@ -308,7 +308,7 @@
                     <p class="component-desc">
                         <strong>100 Farmers | 12 Months | Limpopo Province</strong><br>
                         100% TIA-Eligible | Zero Farm Acquisition | Pure Technology Infrastructure<br>
-                        Demo mCredit™ Platform | Algorithm Validation (NOT Live Lending)
+                        NCR Licensing Budgeted | R3M Loan Facility
                     </p>
                 </div>
                 <div class="component-right">
@@ -316,7 +316,8 @@
                     <ul class="is-list">
                         <li><i class="fas fa-check"></i> CAPEX (52.1% - R1.84M)</li>
                         <li><i class="fas fa-check"></i> Personnel (36.4% - R1.29M)</li>
-                        <li><i class="fas fa-check"></i> OPEX - Technology Operations (11.5% - R404k)</li>
+                        <li><i class="fas fa-check"></i> Operating Expenses (8.7% - R3.300M)</li>
+                        <li><i class="fas fa-check"></i> Farmer Loan Fund - NCR Licensing Included (7.9% - R3.000M)</li>
                         <li><i class="fas fa-check"></i> Working Capital + Startup + Contingency (10.1% - R3.836M)</li>
                     </ul>
 
@@ -378,8 +379,8 @@
 
                 <div class="budget-bar-item">
                     <div class="budget-bar-header">
-                        <span class="budget-category">Technology Operations (APIs, Cloud, Payment Gateway, Marketing)</span>
-                        <span class="budget-amount">R404k</span>
+                        <span class="budget-category">Farmer Loan Fund - NCR Licensing Included (50 loans @ R60k)</span>
+                        <span class="budget-amount">R3.000M</span>
                     </div>
                     <div class="budget-bar">
                         <div class="budget-fill" style="width: 7.9%;"></div>
@@ -853,8 +854,8 @@
                         <i class="fas fa-exclamation-triangle"></i> Risk: Cost Overruns & Regulatory Compliance
                     </h3>
                     <div style="font-size: clamp(0.85rem, 1.5vw, 1.05rem); line-height: 1.5; color: #ccc;">
-                        <p style="margin-bottom: 1vh;"><strong>Scenario:</strong> Platform development takes longer than 6 months</p>
-                        <p style="margin: 0;"><strong style="color: #4CAF50;">Mitigation:</strong> Staggered hiring reduces burn rate, 6-month developer contract (not 12), contingency budget R4.4k, directors can inject short-term liquidity from existing business</p>
+                        <p style="margin-bottom: 1vh;"><strong>Scenario:</strong> Actual costs exceed R3.5M budget or NCR credit licensing delayed</p>
+                        <p style="margin: 0;"><strong style="color: #4CAF50;">Mitigation:</strong> Fixed vendor contracts, 15% contingency buffer, NCR registration costs fully budgeted (R702k: Financial Advisor + Legal to obtain license), CA(SA) with 20yr banking experience manages licensing process</p>
                     </div>
                 </div>
 
@@ -941,7 +942,7 @@
                 <div class="component-right">
                     <h3>TIA Compliance Criteria:</h3>
                     <ul class="is-list">
-                        <li><i class="fas fa-check"></i> <strong>Technology-Enabled SME:</strong> 100% tech infrastructure (R1.84M CAPEX: R960k vehicle, R731k tech equipment, R150k content gear), zero farm acquisition, AI/ML/fintech innovation</li>
+                        <li><i class="fas fa-check"></i> <strong>Technology-Enabled SME:</strong> 100% tech infrastructure (R15M computational), zero farm acquisition, AI/ML/fintech innovation</li>
                         <li><i class="fas fa-check"></i> <strong>Early-Stage Innovation (TRL 5-6):</strong> R3.5M model validated, 100 farmers onboarded, platforms scale to 100k+ users</li>
                         <li><i class="fas fa-check"></i> <strong>SA Intellectual Property:</strong> JASPER™ SA-developed, Llama 3.1 SA-tuned, zero cross-border data flows (POPIA), 100% SA IP ownership</li>
                         <li><i class="fas fa-check"></i> <strong>High-Risk, High-Impact:</strong> 5+ jobs created, 2k students fed (NSNP), 600t CO₂ sequestered, R1.2M→R3M economic multiplier</li>
