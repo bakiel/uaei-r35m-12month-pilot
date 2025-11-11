@@ -303,6 +303,160 @@ const modalContent = {
             { value: 'R1.8M', label: 'Shared Equipment Pool' }
         ],
         animation: true
+    },
+    // Competitive Advantage Modals - Voice-First AI
+    'voice-ai': {
+        title: 'Zero Voice-First Agricultural AI Competitors',
+        content: 'Globally, zero competitors have built voice-first agricultural AI platforms. All existing agtech requires text input, forms, or app downloads—barriers for low-literacy farmers.',
+        stats: [
+            { value: '0', label: 'Voice-First Agri AI' },
+            { value: '94%', label: 'Farmer Preference for Voice' },
+            { value: 'Zero', label: 'Text Literacy Required' },
+            { value: '11', label: 'Languages Supported' }
+        ]
+    },
+    'voice-replication': {
+        title: '18-24 Months to Replicate Voice AI',
+        content: 'Building voice-first agricultural AI requires African language dataset collection, cultural adaptation, farming terminology, and extensive field testing with farmers.',
+        stats: [
+            { value: '18-24mo', label: 'Replication Timeline' },
+            { value: '12+ months', label: 'AI Training & Testing' },
+            { value: '6-12 months', label: 'Cultural Adaptation' },
+            { value: 'Farmerfeedback', label: 'Iterative Development' }
+        ]
+    },
+    'voice-cost': {
+        title: 'R15-25M Cost to Replicate',
+        content: 'Competitors must invest R15-25M to build African language voice AI datasets, train models, field test, and culturally adapt for 11 languages.',
+        stats: [
+            { value: 'R15-25M', label: 'Replication Investment' },
+            { value: '11', label: 'Languages to Train' },
+            { value: '2,000+', label: 'African Crop Terms' },
+            { value: 'Extensive', label: 'Field Testing Required' }
+        ]
+    },
+    'voice-switching': {
+        title: 'Code-Switching: Zulu-English Mix',
+        content: 'Farmers naturally mix languages mid-sentence. UAEI AI handles "I need umkhuba for my spinach" seamlessly—a capability no competitor has built.',
+        stats: [
+            { value: 'Seamless', label: 'Language Switching' },
+            { value: 'Natural', label: 'Farmer Conversation' },
+            { value: '11', label: 'Language Combinations' },
+            { value: 'Unique', label: 'Competitive Advantage' }
+        ]
+    },
+    // Competitive Advantage Modals - Multilingual & Cultural
+    'indigenous': {
+        title: '2,000+ African Crop Varieties',
+        content: 'Indigenous terminology for African crops, pests, diseases, and farming practices. Not found in Wikipedia or generic AI training data.',
+        stats: [
+            { value: '2,000+', label: 'African Crop Terms' },
+            { value: 'Indigenous', label: 'Local Knowledge' },
+            { value: 'Traditional', label: 'Farming Practices' },
+            { value: 'Region-Specific', label: 'Terminology' }
+        ]
+    },
+    'cultural': {
+        title: '24-36 Months to Build Trust',
+        content: 'Trust cannot be rushed. Traditional leader endorsements, community immersion, and farmer relationships require 24-36 months of consistent engagement.',
+        stats: [
+            { value: '24-36mo', label: 'Trust Building Timeline' },
+            { value: 'Traditional', label: 'Leader Endorsements' },
+            { value: 'Community', label: 'Immersion Required' },
+            { value: 'Long-term', label: 'Relationship Investment' }
+        ]
+    },
+    'cultural-cost': {
+        title: 'R5-10M Cultural Adaptation Cost',
+        content: 'Field immersion, community relationship building, traditional leader engagement, and regional dialect adaptation require R5-10M investment.',
+        stats: [
+            { value: 'R5-10M', label: 'Cultural Investment' },
+            { value: 'Field', label: 'Immersion Teams' },
+            { value: 'Community', label: 'Relationship Building' },
+            { value: '9', label: 'Provinces to Cover' }
+        ]
+    },
+    // Competitive Advantage Modals - Data Moat
+    'data-year1': {
+        title: 'Year 1: 91M Messages Foundation',
+        content: '500 farmers generating 91M messages of real African farming data. Conversations about planting, weather, pests, yields—data no AI model has.',
+        stats: [
+            { value: '91M', label: 'Messages Year 1' },
+            { value: '500', label: 'Active Farmers' },
+            { value: 'Real', label: 'African Farming Data' },
+            { value: 'Foundation', label: 'Data Collection Starts' }
+        ]
+    },
+    'data-year5': {
+        title: 'Year 5: 456M Messages—Impossible to Replicate',
+        content: '300,000 farmers, 456M cumulative messages. Five years of African farming knowledge creates permanent AI advantage. Competitors start from zero.',
+        stats: [
+            { value: '456M', label: 'Cumulative Messages' },
+            { value: '300,000', label: 'Farmer Network' },
+            { value: '5-Year', label: 'Data Lead' },
+            { value: 'Impossible', label: 'To Replicate' }
+        ]
+    },
+    'data-accuracy': {
+        title: '20-25% AI Accuracy Advantage',
+        content: 'Proprietary African farming data gives UAEI AI 20-25% higher accuracy than generic models. This translates to better advice, higher yields, more farmer trust.',
+        stats: [
+            { value: '20-25%', label: 'Accuracy Advantage' },
+            { value: 'PERMANENT', label: 'Competitive Edge' },
+            { value: 'Real', label: 'African Farming Data' },
+            { value: 'Better', label: 'Farmer Outcomes' }
+        ]
+    },
+    'gpt5-comparison': {
+        title: 'What GPT-5 Has: ZERO African Farming Data',
+        content: 'GPT-5 trained on Wikipedia generics. When a Limpopo farmer asks "When should I plant tomatoes?", GPT-5 gives generic advice. UAEI gives location-specific, profitable guidance.',
+        stats: [
+            { value: '0', label: 'African Farming Data' },
+            { value: 'Generic', label: 'Wikipedia Training' },
+            { value: 'Useless', label: 'For SA Farmers' },
+            { value: 'UAEI', label: 'Location-Specific AI' }
+        ]
+    },
+    // Competitive Advantage Modals - Zero Competitors
+    'competitor-mtn': {
+        title: 'MTN/Vodacom: 12-18 Month Threat',
+        content: 'Telcos have distribution but lack agricultural expertise. 12-18 months to build farming knowledge, but we have head start in domain expertise and farmer relationships.',
+        stats: [
+            { value: '12-18mo', label: 'Time to Market' },
+            { value: 'MEDIUM', label: 'Threat Level' },
+            { value: 'Distribution', label: 'Their Strength' },
+            { value: 'Agri Expertise', label: 'Our Advantage' }
+        ]
+    },
+    'competitor-bigtech': {
+        title: 'Google/Microsoft: 24-36 Month Threat',
+        content: 'Big Tech has AI capabilities but lacks local knowledge and cultural adaptation. 24-36 months to understand African farming + build community trust.',
+        stats: [
+            { value: '24-36mo', label: 'Time to Market' },
+            { value: 'LOW', label: 'Threat Level' },
+            { value: 'AI Tech', label: 'Their Strength' },
+            { value: 'Local Trust', label: 'Our Advantage' }
+        ]
+    },
+    'replication-cost': {
+        title: 'R50-100M Cost to Replicate UAEI',
+        content: 'Total competitor investment required: AI training (R15-25M), cultural adaptation (R5-10M), infrastructure (R20-30M), farmer acquisition (R10-35M).',
+        stats: [
+            { value: 'R50-100M', label: 'Total Replication Cost' },
+            { value: 'R15-25M', label: 'AI Training' },
+            { value: 'R5-10M', label: 'Cultural Adaptation' },
+            { value: 'R20-30M', label: 'Infrastructure Build' }
+        ]
+    },
+    'build-time': {
+        title: '24-36 Months to Build Complete System',
+        content: 'Trust cannot be rushed. Even with unlimited capital, competitors need 24-36 months for AI training, cultural adaptation, community trust, and farmer network building.',
+        stats: [
+            { value: '24-36mo', label: 'Minimum Build Time' },
+            { value: '12+ months', label: 'AI Development' },
+            { value: '12-18 months', label: 'Cultural Adaptation' },
+            { value: '24+ months', label: 'Trust Building' }
+        ]
     }
 };
 
