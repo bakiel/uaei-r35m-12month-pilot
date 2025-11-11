@@ -92,11 +92,11 @@ const modalContent = {
     },
     year1: {
         title: 'Year 1: Foundation Phase',
-        content: 'Initial rollout with 500 farmers, infrastructure development, and platform launch.',
+        content: 'Initial rollout with 100 farmers, infrastructure development, and platform launch.',
         stats: [
             { value: 'R21M', label: 'Revenue' },
             { value: '-R58M', label: 'Net Income' },
-            { value: '500', label: 'Farmers' },
+            { value: '100', label: 'Farmers' },
             { value: 'Q4', label: 'Platform Launch' }
         ]
     },
@@ -379,10 +379,10 @@ const modalContent = {
     // Competitive Advantage Modals - Data Moat
     'data-year1': {
         title: 'Year 1: 91M Messages Foundation',
-        content: '500 farmers generating 91M messages of real African farming data. Conversations about planting, weather, pests, yields—data no AI model has.',
+        content: '100 farmers generating 91M messages of real African farming data. Conversations about planting, weather, pests, yields—data no AI model has.',
         stats: [
             { value: '91M', label: 'Messages Year 1' },
-            { value: '500', label: 'Active Farmers' },
+            { value: '100', label: 'Active Farmers' },
             { value: 'Real', label: 'African Farming Data' },
             { value: 'Foundation', label: 'Data Collection Starts' }
         ]
