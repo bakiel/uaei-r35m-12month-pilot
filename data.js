@@ -91,13 +91,13 @@ const modalContent = {
         ]
     },
     year1: {
-        title: 'Year 1: Foundation Phase',
-        content: 'Initial rollout with 100 farmers, infrastructure development, and platform launch.',
+        title: 'Year 1: Foundation Phase (TIA Pilot)',
+        content: 'PLANNED: Initial rollout with 100 farmers pilot, infrastructure development, and platform launch. R2.26M pre-signed contracts await platform activation.',
         stats: [
-            { value: 'R21M', label: 'Revenue' },
-            { value: '-R58M', label: 'Net Income' },
-            { value: '100', label: 'Farmers' },
-            { value: 'Q4', label: 'Platform Launch' }
+            { value: 'R21M', label: 'Revenue Projected' },
+            { value: '-R58M', label: 'Net Income Projected' },
+            { value: '100', label: 'Pilot Farmers' },
+            { value: 'TIA Activates', label: 'Infrastructure' }
         ]
     },
     year2: {
@@ -378,13 +378,13 @@ const modalContent = {
     },
     // Competitive Advantage Modals - Data Moat
     'data-year1': {
-        title: 'Year 1: 91M Messages Foundation',
-        content: '100 farmers generating 91M messages of real African farming data. Conversations about planting, weather, pests, yields—data no AI model has.',
+        title: 'Year 1: 91M Messages Foundation (Projected)',
+        content: 'PILOT PHASE: 100 farmers will generate 91M messages of real African farming data. Conversations about planting, weather, pests, yields—data no AI model has. TIA activates data collection infrastructure.',
         stats: [
-            { value: '91M', label: 'Messages Year 1' },
-            { value: '100', label: 'Active Farmers' },
+            { value: '91M', label: 'Messages Projected' },
+            { value: '100', label: 'Pilot Farmers' },
             { value: 'Real', label: 'African Farming Data' },
-            { value: 'Foundation', label: 'Data Collection Starts' }
+            { value: 'TIA Activates', label: 'Infrastructure' }
         ]
     },
     'data-year5': {
